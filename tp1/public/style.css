@@ -1,0 +1,9 @@
+form{
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+}
+
+body{
+    background-color: chartreuse;
+}
