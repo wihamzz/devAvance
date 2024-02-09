@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<livres>
+    <livre origine="France" groupe="Roman">
+        <titre>Les Misérables</titre>
+        <auteur>Victor Hugo</auteur>
+        <an>1862</an>
+        <site_web>
+            https://fr.wikipedia.org/wiki/Les_Mis%C3%A9rables
+        </site_web>
+    </livre>
+    <livre origine="France" groupe="Roman">
+        <titre>Le Grand Meaulnes</titre>
+        <auteur>Alain Fournier</auteur>
+        <an>1913</an>
+        <site_web>
+            https://fr.wikipedia.org/wiki/Le_Grand_Meaulnes
+        </site_web>
+    </livre>
+    <livre origine="France" groupe="Roman">
+        <titre>Eugénie Grandet</titre>
+        <auteur>Honoré de Balzac</auteur>
+        <an>1839</an>
+        <site_web>
+            https://fr.wikipedia.org/wiki/Eug%C3%A9nie_Grandet
+        </site_web>
+    </livre>
+    <livre origine="Grande-Bretagne" groupe="Tragédie">
+        <titre>Hamlet</titre>
+        <auteur>William Shakespeare</auteur>
+        <an>1603</an>
+        <site_web>
+            https://fr.wikipedia.org/wiki/Hamlet
+        </site_web>
+    </livre>
+</livres>

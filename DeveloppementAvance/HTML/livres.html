@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta http-equiv="Content-Type" content="text/html ; charset=utf-8">
+    <title>essai xml</title>
+    <style>
+        table,tr,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        td,th{
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+<h1>essai xml</h1>
+<table>
+    <script type="text/javascript">
+        window.XMLHttpRequest;
+        const xmlhttp = new XMLHttpRequest();
+        xmlhttp.open("GET","XML/livres.xml", false);
+        xmlhttp.send();
+        const xmlDoc = xmlhttp.responseXML;
+        document.write("<p>Liste des noeuds rattachés à la racine</p>");
+        const listeLivres = xmlDoc.getElementsByTagName("livre");
+        for (let i=0;i<listeLivres.length;i++){
+            document.write("<tr>");
+                document.write("<td>");
+                document.write(listeLivres[i].getElementsByTagName("titre")[0].childNodes[0].nodeValue);
+                document.write("</td>");
+                document.write("<td>");
+                document.write(listeLivres[i].getElementsByTagName("auteur")[0].childNodes[0].nodeValue);
+                document.write("</td>");
+                document.write("<td>");
+                document.write(listeLivres[i].getElementsByTagName("an")[0].childNodes[0].nodeValue);
+                document.write("</td>");
+                document.write("<td>");
+                document.write("<a href='"+listeLivres[i].getElementsByTagName("site_web")[0].childNodes[0].nodeValue+"'>lien wikipedia</a>");
+                document.write("</td>");
+            document.write("</tr>");
+        }
+    </script>
+</table>
+
+</body>
+</html>

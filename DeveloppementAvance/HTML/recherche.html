@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Un time out</title>
+</head>
+
+<body>
+<h1>Un essai de timeout</h1>
+<p>Ouvrir une fenetre avec un element de recherche</p>
+<button onclick="openWindow()">Rechercher</button>
+<script>
+    function openWindow(){
+        let url ="https://fr.wikipedia.org/wiki/LaTeX";
+        let openWindow = window.open(url,"","width=500, height=5000");
+            setTimeout(() => {
+                console.log("retardée d'une seconde.");
+                openWindow.close();
+            },3000);
+    }
+</script>
+
+</body>
+</html>
