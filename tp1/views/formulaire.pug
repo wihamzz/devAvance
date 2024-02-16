@@ -1,0 +1,27 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        title Accueil
+    body
+        h1 Bienvenue !
+        nav
+            ul
+                li
+                    a(href="/") Accueil
+                li
+                    a(href="/test") Formulaire
+        form(
+            method="post"
+            action="/resultat"
+        )
+            input(
+                name="message"
+                type="text"
+            )
+            input(
+                value="ben"
+                type="submit"
+            )
+        footer
+            p TP Node

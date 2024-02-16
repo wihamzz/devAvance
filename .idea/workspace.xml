@@ -11,6 +11,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="Pug File" />
       </list>
     </option>
   </component>
@@ -31,7 +32,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "Z:/2023-2024/developpement_av/devAvance/node_modules/pug",
+    "last_opened_file_path": "C:/Users/22000329/AppData/Roaming/npm/pug.cmd",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "watcher.settings",
     "vue.rearranger.settings.migration": "true"
@@ -58,7 +59,7 @@
       <option name="presentableId" value="Default" />
       <updated>1707476021586</updated>
       <workItem from="1707476023101" duration="131000" />
-      <workItem from="1708068454122" duration="4689000" />
+      <workItem from="1708068454122" duration="9191000" />
     </task>
     <servers />
   </component>
