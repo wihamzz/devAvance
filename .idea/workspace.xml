@@ -10,8 +10,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="Pug File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -29,23 +30,38 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/22000329/AppData/Roaming/npm/pug.cmd",
+    "last_opened_file_path": "Z:/2023-2024/developpement_av/devAvance/tp3/app.js",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "watcher.settings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Node.js.app.js">
-    <configuration name="appBasic.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="tpRécap/appBasic.js" working-dir="$PROJECT_DIR$">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="Z:\2023-2024\developpement_av\devAvance\tp3" />
+      <recent name="Z:\2023-2024\developpement_av\devAvance\tp3\routes" />
+      <recent name="Z:\2023-2024\developpement_av\devAvance\tp3\public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="Z:\2023-2024\developpement_av\devAvance\tp3\views" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.tp3Config">
+    <configuration name="appBasic.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/tp2Récap/appBasic.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="app.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="tp1/app.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
+    <configuration name="tp3Config" type="NodeJSConfigurationType" path-to-js-file="tp3/app.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <list>
+      <item itemvalue="Node.js.tp3Config" />
       <item itemvalue="Node.js.appBasic.js" />
       <item itemvalue="Node.js.app.js" />
     </list>
@@ -59,7 +75,9 @@
       <option name="presentableId" value="Default" />
       <updated>1707476021586</updated>
       <workItem from="1707476023101" duration="131000" />
-      <workItem from="1708068454122" duration="10053000" />
+      <workItem from="1708068454122" duration="10865000" />
+      <workItem from="1709277339870" duration="1876000" />
+      <workItem from="1709279244987" duration="8972000" />
     </task>
     <servers />
   </component>

@@ -16,7 +16,7 @@ router.get('/login', (req, res, next) => {
 router.post('/login', (req, res, next) => {
     console.log(Object.assign({},req.body));
     const resForm = Object.assign({},req.body);
-    res.setHeader('Set-Cookie', 'cookieForm');
+    //res.setHeader('Set-Cookie', 'cookieForm');
     req.session.isLogin = true;
     req.session.username = resForm.login;
     console.log(req.session);

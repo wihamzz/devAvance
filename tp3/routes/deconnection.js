@@ -9,7 +9,7 @@ router.get('/deconnection', (req, res, next) => {
     console.log(req.session);
     if (req.session && req.session.isLogin === true){
         //res.redirect("/connecte");
-        res.clearCookie("cookieForm");
+        //res.clearCookie("cookieForm");
         req.session.destroy();
     }
 
