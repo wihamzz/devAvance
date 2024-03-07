@@ -4,6 +4,7 @@ const router = express.Router();
 
 const accessMessage = require('./form');
 
+
 router.get('/', (req, res, next) => {
     console.log("acces message : ", accessMessage.message);
     console.log(req.session);
@@ -24,7 +25,7 @@ router.get('/', (req, res, next) => {
             }
         }
     }
-    res.render(path.join(__dirname,"..","views","accueil.ejs"),{pageTitle: "page accueil", accessMessage : accessMessage.message, isConnected: isConnected});
+    res.render(path.join(__dirname,"..","views","accueil.ejs"),{pageTitle: "page accueil", username: req.session.username, accessMessage : accessMessage.message, isConnected: isConnected});
 
 
 });

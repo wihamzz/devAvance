@@ -8,7 +8,7 @@
 
 <main>
     <h2>Page d'accueil</h2>
-    <p>Bonjour vous voici sur la page d'accueil</p>
+    <p>Bonjour <%=username%> vous voici sur la page d'accueil</p>
     <% if(accessMessage.length > 0) { %>
     <ul>
         <% for (let elt of accessMessage) { %>

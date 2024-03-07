@@ -26,8 +26,12 @@ app.use(deconnectionRoutes);
 app.use(connecteRoutes);
 app.use(defautRoutes);
 
+
+
 app.use((req,res,next)=>{
+
     let isConnected = false;
+
     if (req.session && req.session.isLogin === true){
         //res.redirect("/connecte");
         isConnected = true;
